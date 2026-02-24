@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
 import HomePage from './pages/HomePage'
+import AboutPage from './pages/AboutPage'
 
 // Placeholder pages — we'll build each one properly next
 const Placeholder = ({ name }) => (
@@ -14,13 +15,13 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
-        <Route path="about"      element={<Placeholder name="About Us" />} />
-        <Route path="academics"  element={<Placeholder name="Academics" />} />
+        <Route path="about" element={<AboutPage />} />
+        <Route path="academics" element={<Placeholder name="Academics" />} />
         <Route path="admissions" element={<Placeholder name="Admissions" />} />
-        <Route path="news"       element={<Placeholder name="News & Events" />} />
-        <Route path="contact"    element={<Placeholder name="Contact" />} />
-        <Route path="apply"      element={<Placeholder name="Apply Online" />} />
-        <Route path="portal"     element={<Placeholder name="Parent Portal" />} />
+        <Route path="news" element={<Placeholder name="News & Events" />} />
+        <Route path="contact" element={<Placeholder name="Contact" />} />
+        <Route path="apply" element={<Placeholder name="Apply Online" />} />
+        <Route path="portal" element={<Placeholder name="Parent Portal" />} />
       </Route>
     </Routes>
   )
