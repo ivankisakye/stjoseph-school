@@ -1,9 +1,16 @@
+import Hero from '../components/home/Hero';
+import WhyChooseUs from '../components/home/WhyChooseUs';
+import AcademicsOverview from '../components/home/AcademicsOverview';
+import FacilitiesSection from '../components/home/FacilitiesSection';
+
 export default function HomePage() {
   return (
-    <div className="flex items-center justify-center min-h-screen">
-      <h1 className="text-4xl font-heading font-bold text-primary-700">
-        St Joseph Elite Junior School bweyogerere 🎓
-      </h1>
+    <div>
+      <Hero />
+      <WhyChooseUs />
+      <AcademicsOverview />
+      <FacilitiesSection />
+      {/* More sections coming next... */}
     </div>
-  )
+  );
 }
