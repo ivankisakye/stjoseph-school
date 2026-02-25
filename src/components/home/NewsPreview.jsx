@@ -10,7 +10,7 @@ const news = [
   },
   {
     title: "New Science Lab Inaugurated",
-    image: "https://images.unsplash.com/photo-1581092334394-2d9b5d12b6e5?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=600&q=80",
     date: "Jan 10, 2026",
     excerpt: "Our fully equipped science laboratory is now ready for students to explore STEM."
   },

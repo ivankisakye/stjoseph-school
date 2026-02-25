@@ -2,6 +2,15 @@ import { Routes, Route } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
+import AcademicsPage from './pages/AcademicsPage'
+import AdmissionsPage from './pages/AdmissionsPage'
+import NewsPage from './pages/NewsPage'
+import ContactPage from './pages/ContactPage'
+import FaqsPage from './pages/FaqsPage'
+import HowToApply from './components/admissions/HowToApply';
+import GalleriePage from './pages/GalleriePage';
+import StaffPage from './pages/StaffPage';
+import GeneralabtsPage from './pages/GeneralabtsPage';
 
 // Placeholder pages — we'll build each one properly next
 const Placeholder = ({ name }) => (
@@ -16,12 +25,23 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
-        <Route path="academics" element={<Placeholder name="Academics" />} />
-        <Route path="admissions" element={<Placeholder name="Admissions" />} />
-        <Route path="news" element={<Placeholder name="News & Events" />} />
-        <Route path="contact" element={<Placeholder name="Contact" />} />
+        <Route path="academics" element={<AcademicsPage />} />
+        <Route path="admissions" element={<AdmissionsPage />} />
+        <Route path="news" element={<NewsPage />} />
+        <Route path="contact" element={<ContactPage />} />
+        <Route path="faqs" element={<FaqsPage />} />
+        <Route path="about/gallery" element={<GalleriePage />} />
+        <Route path="about/staff" element={<StaffPage />} />
+        <Route path="about/general" element={<GeneralabtsPage />} />
+
+
         <Route path="apply" element={<Placeholder name="Apply Online" />} />
         <Route path="portal" element={<Placeholder name="Parent Portal" />} />
+
+
+        <Route path="/admissions/how-to-apply" element={<HowToApply />} />
+
+
       </Route>
     </Routes>
   )

@@ -1,28 +1,21 @@
-import BlogList from '../components/news/BlogList';
-import EventList from '../components/news/EventList';
-import Careers from '../components/news/Careers';
+import GeneralAbts from '../components/about/general/GeneralAbts';
 
-export default function NewsPage() {
+export default function GeneralabtsPage() {
   return (
     <div className="bg-white">
       {/* Page Header */}
       <div className="bg-gradient-to-br from-primary-600 to-primary-800 py-20 pt-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <h1 className="font-heading text-4xl md:text-5xl font-bold mb-4">
-            News & Events
+            More Info
           </h1>
           <p className="text-xl text-primary-100 max-w-2xl mx-auto">
-            Stay connected with the latest happenings, achievements, and opportunities 
-            at St Joseph Elite Junior School
+            Get in touch with us for any inquiries or to schedule a visit to our campus
           </p>
         </div>
       </div>
 
-      <BlogList />
-      <EventList />
-      <Careers />
-      
-      {/*      <Careers />      */}
+      <GeneralAbts />
     </div>
   );
 }

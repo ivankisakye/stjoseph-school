@@ -10,7 +10,7 @@ const facilities = [
   {
     title: "Computer Lab",
     image:
-      "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=1000&q=800",
+      "https://images.unsplash.com/photo-1599058917765-a780eda07a3e?auto=format&fit=crop&w=1000&q=80",
     desc: "Networked lab with modern PCs for digital literacy.",
   },
   {

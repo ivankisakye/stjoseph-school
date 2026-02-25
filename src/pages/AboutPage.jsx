@@ -1,8 +1,8 @@
 import History from '../components/about/History';
 import VisionMission from '../components/about/VisionMission';
 import CoreValues from '../components/about/CoreValues';
-//import StaffDirectory from '../components/about/StaffDirectory';
-//import Gallery from '../components/about/Gallery';
+import StaffDirectory from '../components/about/StaffDirectory';
+import Gallery from '../components/about/Gallery';
 
 export default function AboutPage() {
   return (
@@ -22,11 +22,12 @@ export default function AboutPage() {
       <History />
       <VisionMission /> 
       <CoreValues />
-       
+      <StaffDirectory />
+      <Gallery /> 
       {/*         
       
-      <StaffDirectory />
-      <Gallery />              */}
+      
+                   */}
     </div>
   );
 }
