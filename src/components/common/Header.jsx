@@ -22,8 +22,8 @@ const navLinks = [
     to: '/admissions',
     dropdown: [
       { label: 'How to Apply', to: '/admissions/how-to-apply' },
-      { label: 'Requirements', to: '/admissions/requirements' },
-      { label: 'Circular', to: '/admissions/circular' },
+      { label: 'Requirements', to: '/admissions/reqs' },
+      { label: 'Circular', to: '/admissions/circ' },
       { label: 'Fees Notice', to: '/admissions/fees-notice' },
       { label: 'Admission Process', to: '/admissions/process' },
     ]

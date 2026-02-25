@@ -11,6 +11,9 @@ import HowToApply from './components/admissions/HowToApply';
 import GalleriePage from './pages/GalleriePage';
 import StaffPage from './pages/StaffPage';
 import GeneralabtsPage from './pages/GeneralabtsPage';
+import HowtoapplyPage from './pages/HowtoapplyPage';
+import RequirementsPage from './pages/RequirementsPage';
+import CircularPage from './pages/CircularPage';
 
 // Placeholder pages — we'll build each one properly next
 const Placeholder = ({ name }) => (
@@ -33,6 +36,9 @@ function App() {
         <Route path="about/gallery" element={<GalleriePage />} />
         <Route path="about/staff" element={<StaffPage />} />
         <Route path="about/general" element={<GeneralabtsPage />} />
+        <Route path="admissions/how" element={<HowtoapplyPage />} />
+        <Route path="admissions/reqs" element={<RequirementsPage />} />
+        <Route path="admissions/circ" element={<CircularPage />} />
 
 
         <Route path="apply" element={<Placeholder name="Apply Online" />} />
